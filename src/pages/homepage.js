@@ -33,22 +33,22 @@ const SLOGANS = [
   {
     name: 'Arnold Schwarzenegger',
     slogan: 'The last three or four reps is what makes the muscle grow.',
-    image: '/arnold.jpg'
+    image: '/compressed/arnold.avif'
   },
   {
     name: 'Ronnie Coleman',
     slogan: 'Yeah buddy, light weight baby!',
-    image: '/Ronnie_Coleman.jpg'
+    image: '/compressed/Ronnie_Coleman.avif'
   },
   {
     name: 'Dorian Yates',
     slogan: 'The only thing that\'s on my mind is that I\'ve got to be the best.',
-    image: '/dorian_yates.jpeg'
+    image: '/compressed/dorian_yates.avif'
   },
   {
     name: 'Jay Cutler',
     slogan: 'I don\'t eat for taste, I eat for function.',
-    image: '/jay_cutler.jpg'
+    image: '/compressed/jay_cutler.avif'
   }
 ];
 
@@ -181,16 +181,16 @@ export default function HomePage() {
 
         <Grid container spacing={6} sx={{ mt: 2 }}>
             <Grid size = {{xs:12, md:6}}>
-              <img src="/stay_fit.jpg" alt="Gym shot 1" style={{ width: '100%', height: 'auto', borderRadius: '8px', display: 'block' }} />
+              <img src="/compressed/stay_fit.avif" alt="Gym shot 1" loading="lazy" decoding="async" style={{ width: '100%', height: 'auto', borderRadius: '8px', display: 'block' }} />
             </Grid>
             <Grid  size = {{xs:12, md:6}}>
-              <img src="/stay_fit2.jpg" alt="Gym shot 2" style={{ width: '100%', height: 'auto', borderRadius: '8px', display: 'block' }} />
+              <img src="/compressed/stay_fit2.avif" alt="Gym shot 2" loading="lazy" decoding="async" style={{ width: '100%', height: 'auto', borderRadius: '8px', display: 'block' }} />
             </Grid>
             <Grid  size = {{xs:12, md:6}}>
-              <img src="/stay_fit4.jpg" alt="Gym shot 3" style={{ width: '100%', height: 'auto', borderRadius: '8px', display: 'block' }} />
+              <img src="/compressed/stay_fit4.avif" alt="Gym shot 3" loading="lazy" decoding="async" style={{ width: '100%', height: 'auto', borderRadius: '8px', display: 'block' }} />
             </Grid>
             <Grid size = {{xs:12, md:6}}>
-              <Box component="img" src="/back_2.jpg" alt="Gym shot 4" sx={{ width: '100%', height: 'auto', borderRadius: '8px', display: 'block' }} />
+              <Box component="img" src="/compressed/back_2.avif" alt="Gym shot 4" loading="lazy" decoding="async" sx={{ width: '100%', height: 'auto', borderRadius: '8px', display: 'block' }} />
             </Grid>
         </Grid>
         </Box>

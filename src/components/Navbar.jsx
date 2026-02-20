@@ -59,7 +59,7 @@ export default function Navbar() {
         <Toolbar disableGutters>
           {/* Desktop Logo & Title */}
           <Box component={NavLink} to="/" sx={{ display: 'flex', alignItems: 'center', textDecoration: 'none', color: 'black', flexGrow: { xs: 1, md: 0 } }}>
-            <Box component="img" src="/logo1.webp" alt="Muscle Fitness logo" sx={{ height: 50, mr: 1 }} />
+            <Box component="img" src="/compressed/logo1.avif" alt="Muscle Fitness logo" sx={{ height: 50, mr: 1 }} />
             <Typography
               variant="h6"
               noWrap
